@@ -1,0 +1,82 @@
+.template4_v1 {font-size:60px;height:100%;}
+.template4_v1 .itemContainer{margin-top:0px;}
+.template4_v1 .questionContainer{text-align: center;margin-top: 20px;}
+.template4_v1 .optionContainer{overflow: hidden;font-size: 60px;font-weight: bold;margin-top:10px;}
+.template4_v1 .optionContainer .optText{width: 250px;height:80px;display: inline-block;}
+.template4_v1 .optionContainer .optClick{position: absolute;display: inline-block;cursor:pointer;}
+.template4_v1 .optionContainer .optClick.filled{cursor:default;}
+.template4_v1  .optionContainer .option {margin-left:20%;}
+.template4_v1 .questionContainer .question{border: 2px solid #ffffff;padding: 45px 17px;border-radius: 20px;font-weight: bold;cursor:pointer;}
+
+.template4_v1 .questionContainer .question_2{padding:95px 17px;}
+.template4_v1 .questionContainer .question_6{padding:95px 17px;}
+
+.template4_v1 #itemContainer_1 .option_1 .optClick{width: 487px;height: 281px;top: 5px;left: 63px;}
+.template4_v1 #itemContainer_1 .option_2 .optClick{width: 487px;height: 281px;top: 5px;left: 86px;}
+.template4_v1 #itemContainer_1 .option_3 .optClick{width: 487px;height: 281px;top: 5px;left: 86px;}
+.template4_v1 #itemContainer_1 .option_4 .optClick{width: 487px;height: 281px;top: 5px;left: 86px;}
+
+
+.template4_v1 #itemContainer_1 .option_1 .ansImage{position:absolute;bottom: 173px;left: 247px;max-height: 210px;}
+.template4_v1 #itemContainer_1 .option_2 .ansImage{position:absolute;bottom: 173px;right: 86px;max-height: 150px;max-width: 230px;}
+.template4_v1 #itemContainer_1 .option_3 .ansImage{position:absolute;bottom: 174px;left: 135px;max-height: 210px;}
+.template4_v1 #itemContainer_1 .option_4 .ansImage{position:absolute;bottom: 174px;right: 261px;max-height: 150px;max-width: 230px;}
+
+
+.template4_v1 .option_2 .showAnswerTickMark, .template4_v1 .option_2 .showAnswerCrossMark{right:7px;}
+.template4_v1 .option_3 .showAnswerTickMark, .template4_v1 .option_3 .showAnswerCrossMark{right:110px;}
+.template4_v1 .showAnswerTickMark, .template4_v1 .option_1 .showAnswerCrossMark{right:18px;}
+.template4_v1 .option_4 .showAnswerTickMark, .template4_v1 .option_4 .showAnswerCrossMark{right:181px;}
+.template4_v1 .showAnswerTickMark, .template4_v1 .showAnswerCrossMark{position: absolute;top: -10px;right: 5px;text-align: center;}
+.template4_v1 .showAnswerCrossMark{animation-name: crossBlinker;animation-duration: 1s;opacity:0;}
+@keyframes crossBlinker {
+    0% {opacity:1;}
+    25% {opacity:0;}
+    50% {opacity:1;}    
+    100% {opacity:0;}
+}
+
+
+body {
+    
+    margin:0;
+ 
+  }
+  
+  a, p, h1, h2, h3, h4, h5, h6, th, td, li {
+      font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+  }
+  
+  #msg {
+    padding-left : 5px;
+    color : red;
+  }
+  .emptyTileSolution {
+    background-color:#CCCCAA;
+  }
+  #general {
+    display:flex;
+  }
+  #menu {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  
+  #menu p, #menu button {
+    margin: 5px;
+  }
+  
+  #game {
+    margin: 5px;
+    right: -162px;
+    bottom: 95px;
+    box-shadow: 5px 5px 5px #888;
+    background-color : #FFC;
+  }
+  #menu button {
+    width:15ex;
+  }
+  .remark {
+    font-size : 80%;
+  }
