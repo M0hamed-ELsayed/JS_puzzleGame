@@ -1,2 +1,2 @@
 # JS_puzzleGame
-sample puzzl game made by me 
+sample puzzle game made by me 
